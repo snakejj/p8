@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "layouts/_head.html" %}
+
+<body id="page-top">
+  {% include "layouts/_navigation.html" %}
+
+  {% block content %}
+  {% endblock %}
+
+  {% include "layouts/_footer.html" %}
+  {% include "layouts/_scripts.html" %}
+
+</body>
+
+</html>
