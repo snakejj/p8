@@ -1,0 +1,56 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Masthead -->
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">{{ header_title }}</h1>
+    </div>
+  </header>
+
+<!-- list of results -->
+  <section class="results-section">
+    {% if substitutes == "Best" %}
+    <h5 class="text-center mt-0">Ce produit à un nutriscore A</h5>
+    <hr class="divider my-4">
+    {% elif substitutes is not False %}
+      <h5 class="text-center mt-0">Vous pouvez remplacer cet aliment par :</h5>
+      <hr class="divider my-4">
+
+      <div class="row">
+        {% for product in substitutes %}
+        <div class="col-lg-4-product" >
+          <div class="col-lg-4-img" >
+            {% if product.nutrition_grade_fr == 'a' %}
+            <span class="nutriscore-a">A</span>
+            {% elif product.nutrition_grade_fr == 'b' %}
+            <span class="nutriscore-b">B</span>
+            {% elif product.nutrition_grade_fr == 'c' %}
+            <span class="nutriscore-c">C</span>
+            {% elif product.nutrition_grade_fr == 'd' %}
+            <span class="nutriscore-d">D</span>
+            {% elif product.nutrition_grade_fr == 'e' %}
+            <span class="nutriscore-e">E</span>
+            {% endif %}
+            <a class="fill-div" href="{% url 'Product_page' code=product.code %}">
+              <img class ="imgproduct" src="{{ product.image_url }} " alt="{{ product.product_name }}">
+              </a>
+          </div>
+          <a href="{% url 'Product_page' code=product.code %}"><h5 class="h4-product">{{ product.product_name }}</h5></a>
+            <p class="p-product">
+              <!-- <hr/>{{ product.code }}<hr/>{{product.nutrition_grade_fr}}<hr/> -->
+              <a class="a-saveproduct" href="{% url 'History' origin_code=productsearched_code altern_code=product.code  %}">
+                <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                Sauvegarder
+              </a>
+            </p>
+        </div>
+        {% endfor %}
+      </div>
+    {% else %}
+    <p class="text-center">Aucun substitut n'a été trouvé pour votre recherche</p>
+    {% endif %}
+  </section>
+
+{% endblock content %}

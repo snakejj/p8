@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # -----------------------------
     'core.apps.CoreConfig',
-
+    'openfoodfacts.apps.OpenfoodfactsConfig',
+    'products.apps.ProductsConfig',
+    'search.apps.SearchConfig',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -121,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGOUT_REDIRECT_URL = "core:home"

@@ -10,9 +10,85 @@
      margin-right: 15px;
 }
 
-/* ### Page mentions_legales ### */
+/* ### Page resultats ### */
 
-header.legalnotice{
+.results-section{
+    padding:2rem 0
+}
+
+.nutriscore-a{
+    position: absolute;
+    right: 0;
+    top: -20px;
+	border-radius: 20px;
+	background: #037d3f;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+}
+
+.nutriscore-b{
+    position: absolute;
+    right: 0;
+    top: -20px;
+	border-radius: 20px;
+	background: #81b62e;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+}
+
+.nutriscore-c{
+    position: absolute;
+    right: 0;
+    top: -20px;
+	border-radius: 20px;
+	background: #f7c502;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+}
+
+.nutriscore-d{
+    position: absolute;
+    right: 0;
+    top: -20px;
+	border-radius: 20px;
+	background: #e77d00;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+}
+
+.nutriscore-e{
+    position: absolute;
+    right: 0;
+    top: -20px;
+	border-radius: 20px;
+	background: #e03c11;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+}
+
+/* ### Header for Pages mentions_legales, resultats, login, profil ### */
+
+header.profil, header.login, header.results, header.legalnotice{
     padding-top:10rem;
     padding-bottom:calc(10rem - 72px);
     background:linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../img/bg-masthead.jpg);
@@ -21,25 +97,25 @@ header.legalnotice{
     background-attachment:scroll;
     background-size:cover
 }
-header.legalnotice h1{
+header.profil, header.login, header.results, header.legalnotice h1{
     font-size:2.25rem
 }
 @media (min-width:992px){
-    header.legalnotice{
+    header.profil, header.login, header.results, header.legalnotice{
         height:30vh;
         min-height:10rem;
         padding-top:72px;
         padding-bottom:0
     }
-    header.legalnotice p{
+    header.profil, header.login, header.results, header.legalnotice p{
         font-size:1.15rem
     }
-    header.legalnotice h1{
+    header.profil, header.login, header.results, header.legalnotice h1{
         font-size:3rem
     }
 }
 @media (min-width:1200px){
-    header.legalnotice h1{
+    header.profil, header.login, header.results, header.legalnotice h1{
         font-size:3.5rem
     }
 }

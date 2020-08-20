@@ -1,0 +1,23 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Masthead -->
+  <header class="login">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">Login</h1>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="page-section" >
+    <div class="container text-center">
+      <form action="{% url 'users:login' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+      <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+{% endblock content %}
