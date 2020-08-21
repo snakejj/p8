@@ -12,10 +12,11 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <hr class="divider light my-4">
-          <form class="form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="post">
-                    {% csrf_token %}
-                    <input name='#' id='#' type="text" class="form-control" placeholder="Produit">
-                    <button name='button_search' id='button_search' type="submit" class="btn btn-primary">Chercher</button>
+          <form class="form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="get">
+            {% for field in search_form %}
+            {{ field }}
+            {% endfor %}
+                    <button type="submit" class="btn btn-primary">Chercher</button>
                 </form>
 
 
@@ -23,6 +24,7 @@
         </div>
       </div>
     </div>
+
   </header>
 
   <!-- Team Section -->

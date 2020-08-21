@@ -2,4 +2,4 @@ from django import forms
 
 
 class SearchForm(forms.Form):
-    productsearched = forms.CharField(label="")
+    product_searched = forms.CharField(label="produit a chercher")

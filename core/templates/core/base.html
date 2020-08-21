@@ -2,7 +2,15 @@
 <html lang="en">
 
 {% include "core/layouts/_head.html" %}
-
+{% if messages %}
+  <div>
+    {% for message in messages %}
+      <div{% if message.tags %} class="{{ message.tags }}"{% endif %} id="message_container"onclick="this.parentElement.style.display='none';">
+        <div class="message_text">{{ message }}</div><div class="message_close_icon">&times;</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
 <body id="page-top">
   {% include "core/layouts/_navigation.html" %}
 

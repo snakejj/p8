@@ -2,14 +2,14 @@
 <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="{% url 'core:home' %}#page-top"><img class="logoheader" src="{% static 'img/logo.png' %}" alt="Logo">Pur Beurre</a>
+      <a class="navbar-brand" href="{% url 'core:home' %}"><!-- pagetop : #page-top --><img class="logoheader" src="{% static 'img/logo.png' %}" alt="Logo">Pur Beurre</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Search</a>
+            <a class="nav-link" href="#">Search</a>
           </li>
           <li class="nav-item">
             {% if user.is_authenticated %}
@@ -22,7 +22,11 @@
             <a class="nav-link" href="{% url 'search:search_results' %}"><i class="fas fa-carrot"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'users:logout' %}"><i class="fa fa-sign-out-alt"></i></a>
+            {% if user.is_authenticated %}
+            <a class="nav-link" style="color: #f4623a" href="{% url 'users:logout' %}"><i class="fa fa-sign-out-alt"></i></a>
+            {% else %}
+            <a class="nav-link" href="#"><i class="fa fa-sign-out-alt"></i></a>
+            {% endif %}
           </li>
         </ul>
       </div>

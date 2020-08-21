@@ -3,6 +3,87 @@
 
 /* #################################### Custom CSS #################################### */
 
+/*
+### messages alerts ###
+*/
+
+.success{
+  padding: 20px;
+  background-color: green;
+  color: white;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.error{
+  padding: 20px;
+  background-color: red;
+  color: white;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.info{
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.warning{
+  padding: 20px;
+  background-color: orange;
+  color: white;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+
+.message_text{
+  text-align: center;
+}
+
+.message_close_icon{
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+
+/*
+### home page search input field ###
+*/
+#id_product_searched{
+overflow: visible;
+padding: 0.4rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+margin-right: 0.25rem;
+border: 0px;
+}
+
+
 /* ### Logo header ### */
 
  .logoheader{
@@ -173,6 +254,7 @@ body{
     color:#212529;
     text-align:left;
     background-color:#fff
+    z-index: 10;
 }
 [tabindex="-1"]:focus{
     outline:0!important
