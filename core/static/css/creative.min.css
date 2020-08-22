@@ -134,6 +134,13 @@ margin-right: 0.25rem;
 border: 0px;
 }
 
+/*
+### search input field for the navbar ###
+*/
+
+.navbar-form{
+background-color: #ecebeb;
+}
 
 /* ### Logo header ### */
 

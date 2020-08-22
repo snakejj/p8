@@ -1,4 +1,6 @@
 {% load static %}
+{% url 'core:home' as home_url %}
+
 <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
@@ -8,20 +10,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Search</a>
+          {% if request.get_full_path != home_url %}
+          <li class="nav-item my-auto">
+            <form class="" action="{% url 'search:search_results' %}" method="get">
+              <input type="text" name="product_searched" placeholder="Quel produit substituer ?" id="id_product_searched" class="navbar-form">
+            </form>
           </li>
-          <li class="nav-item">
+          {% endif %}
+          <li class="nav-item my-auto">
             {% if user.is_authenticated %}
             <a class="nav-link" href="{% url 'users:profile' %}"><i class="fa fa-user"></i></a>
             {% else %}
             <a class="nav-link" href="{% url 'users:login' %}"><i class="fa fa-user"></i></a>
             {% endif %}
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-auto">
             <a class="nav-link" href="{% url 'search:search_results' %}"><i class="fas fa-carrot"></i></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-auto">
             {% if user.is_authenticated %}
             <a class="nav-link" style="color: #f4623a" href="{% url 'users:logout' %}"><i class="fa fa-sign-out-alt"></i></a>
             {% else %}
