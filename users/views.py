@@ -3,8 +3,8 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import logout as log_out
 from django.contrib.auth import login as log_in
 from django.contrib import messages
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.contrib.auth.models import User
+from django.contrib.auth.forms import AuthenticationForm
+
 
 from .forms import SignUpForm
 

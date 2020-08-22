@@ -47,11 +47,4 @@ class Product(models.Model):
     objects = ProductManager()
 
 
-class History(models.Model):
-    food_id = models.BigIntegerField()
-    substitute_id = models.BigIntegerField()
-
-    objects = ProductManager()
-
-
 

@@ -3,23 +3,44 @@
 {% block content %}
 
 <!-- Masthead -->
+
+      {% if product_found == None %}
   <header class="results">
     <div class="container h-100">
-        <h1 class="text-center text-white font-weight-bold">{{ header_title }}</h1>
+        <h1 class="text-center text-white font-weight-bold">Oops !</h1>
+      {% elif product_found == False %}
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">Oops !</h1>
+      {% else %}
+  <header class="results"
+          style="
+          background : linear-gradient(to bottom,rgba(92,77,66,.9) 0,rgba(92,77,66,.2) 100%),url({{product_found.image_url}});
+          background-repeat : no-repeat;
+          text-align : center;
+          background-position: center;">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">{{ product_found.product_name }}</h1>
+      {% endif %}
     </div>
   </header>
 
 <!-- list of results -->
   <section class="results-section">
-    {% if substitutes == "Best" %}
+    {% if product_found == None %}
+    <p class="text-center">Vous pouvez utiliser le champ dans la barre de navigation pour faire une recherche</p>
+    {% elif product_found == False %}
+    <p class="text-center">Nous n'avons trouvé aucun produit correspondant à votre recherche. Merci d'en essayer une autre</p>
+    {% elif surrogates is False %}
     <h5 class="text-center mt-0">Ce produit à un nutriscore A</h5>
     <hr class="divider my-4">
-    {% elif substitutes is not False %}
+    {% elif surrogates %}
+    <div class="container">
       <h5 class="text-center mt-0">Vous pouvez remplacer cet aliment par :</h5>
       <hr class="divider my-4">
 
-      <div class="row">
-        {% for product in substitutes %}
+    <div class="row">
+        {% for product in surrogates %}
         <div class="col-lg-4-product" >
           <div class="col-lg-4-img" >
             {% if product.nutrition_grade_fr == 'a' %}
@@ -33,14 +54,13 @@
             {% elif product.nutrition_grade_fr == 'e' %}
             <span class="nutriscore-e">E</span>
             {% endif %}
-            <a class="fill-div" href="{% url 'Product_page' code=product.code %}">
+            <a class="fill-div" href="{% url 'core:home' %}">
               <img class ="imgproduct" src="{{ product.image_url }} " alt="{{ product.product_name }}">
               </a>
           </div>
-          <a href="{% url 'Product_page' code=product.code %}"><h5 class="h4-product">{{ product.product_name }}</h5></a>
+          <a href="{% url 'core:home' %}"><h5 class="mb-3 text-center font-weight-bold">{{ product.product_name }}</h5></a>
             <p class="p-product">
-              <!-- <hr/>{{ product.code }}<hr/>{{product.nutrition_grade_fr}}<hr/> -->
-              <a class="a-saveproduct" href="{% url 'History' origin_code=productsearched_code altern_code=product.code  %}">
+              <a class="a-saveproduct" href="{% url 'core:home'%}">
                 <i class="fa fa-floppy-o" aria-hidden="true"></i>
                 Sauvegarder
               </a>
@@ -48,8 +68,10 @@
         </div>
         {% endfor %}
       </div>
+      </div>
+    </div>
     {% else %}
-    <p class="text-center">Aucun substitut n'a été trouvé pour votre recherche</p>
+    <p class="text-center">Une erreur c'est produite, merci de <a href="{% url 'core:home' %}#contact">nous contacter !</a></p>
     {% endif %}
   </section>
 
