@@ -16,6 +16,19 @@
     max-width:33.33333%;
     min-height: 300px;
 }
+
+@media (max-width: 700px) {
+    .col-lg-4-product{
+        position:relative;
+        width:100%;
+        padding-right:15px;
+        padding-left:15px;
+        flex:0 0 100%;
+        max-width: 100%;
+        min-height: 300px;
+    }
+}
+
 .col-lg-4-img{
     position:relative;
     width:100%;
