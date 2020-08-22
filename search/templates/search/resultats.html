@@ -1,7 +1,7 @@
 {% extends "core/base.html" %}
 {% load static %}
 {% block content %}
-
+{% url 'product' as home_url %}
 <!-- Masthead -->
 
       {% if product_found == None %}
@@ -54,11 +54,11 @@
             {% elif product.nutrition_grade_fr == 'e' %}
             <span class="nutriscore-e">E</span>
             {% endif %}
-            <a class="fill-div" href="{% url 'core:home' %}">
+            <a class="fill-div" href="{% url 'products:product' %}?code={{ product.code }}">
               <img class ="imgproduct" src="{{ product.image_url }} " alt="{{ product.product_name }}">
               </a>
           </div>
-          <a href="{% url 'core:home' %}"><h5 class="mb-3 text-center font-weight-bold">{{ product.product_name }}</h5></a>
+          <a href="{% url 'products:product' %}?code={{ product.code }}"><h5 class="mb-3 text-center font-weight-bold">{{ product.product_name }}</h5></a>
             <p class="p-product">
               <a class="a-saveproduct" href="{% url 'core:home'%}">
                 <i class="fa fa-floppy-o" aria-hidden="true"></i>

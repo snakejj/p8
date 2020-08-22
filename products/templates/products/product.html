@@ -1,0 +1,59 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Masthead -->
+
+      {% if product == None %}
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">Oops !</h1>
+      {% else %}
+  <header class="results img-fluid"
+          style="
+          background : linear-gradient(to bottom,rgba(92,77,66,.9) 0,rgba(92,77,66,.2) 100%),url({{product.image_url}});
+          background-repeat : no-repeat;
+          text-align : center;
+          background-position: center;
+          ">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">{{ product.product_name }}</h1>
+      {% endif %}
+    </div>
+  </header>
+
+<!-- list of results -->
+  <section class="page-section py-5">
+  <div class="container">
+    <div class="row">
+        <div class="text-center col-md-6 col-xs-12" >
+            {% if product.nutrition_grade_fr == 'a' %}
+            <img class ="img-fluid" src="{% static 'img/nutriscore/A.png' %}" alt="Nutriscore A">
+            {% elif product.nutrition_grade_fr == 'b' %}
+            <img class ="img-fluid" src="{% static 'img/nutriscore/B.png' %}" alt="Nutriscore B">
+            {% elif product.nutrition_grade_fr == 'c' %}
+            <img class ="img-fluid" src="{% static 'img/nutriscore/C.png' %}" alt="Nutriscore C">
+            {% elif product.nutrition_grade_fr == 'd' %}
+            <img class ="img-fluid" src="{% static 'img/nutriscore/D.png' %}" alt="Nutriscore D">
+            {% elif product.nutrition_grade_fr == 'e' %}
+            <img class ="img-fluid" src="{% static 'img/nutriscore/E.png' %}" alt="Nutriscore E">
+            {% endif %}
+        </div>
+
+        <div class="text-center col-md-6 col-xs-12" >
+          <img class ="img-fluid" src="{{ product.image_nutrition_url }}" alt="Repères nutritionels">
+        </div>
+      </div>
+    <div class="row justify-content-center">
+        <div class="col-8 text-center border border-dark rounded mt-5">
+          <a class="link-off" href="{{ product.product_url }}">
+            Voir la fiche d'OpenFoodFacts
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+{% endblock content %}
