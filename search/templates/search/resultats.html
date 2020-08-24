@@ -1,7 +1,6 @@
 {% extends "core/base.html" %}
 {% load static %}
 {% block content %}
-{% url 'product' as home_url %}
 <!-- Masthead -->
 
       {% if product_found == None %}
@@ -20,7 +19,7 @@
           text-align : center;
           background-position: center;">
     <div class="container h-100">
-        <h1 class="text-center text-white font-weight-bold">{{ product_found.product_name }}</h1>
+      <h1><a class="text-center text-white font-weight-bold" href="{% url 'products:product' %}?code={{ product_found.code }}">{{ product_found.product_name }}</a></h1>
       {% endif %}
     </div>
   </header>
@@ -59,12 +58,22 @@
               </a>
           </div>
           <a href="{% url 'products:product' %}?code={{ product.code }}"><h5 class="mb-3 text-center font-weight-bold">{{ product.product_name }}</h5></a>
-            <p class="p-product">
-              <a class="a-saveproduct" href="{% url 'core:home'%}">
-                <i class="fa fa-floppy-o" aria-hidden="true"></i>
+            {% if user.is_authenticated %}
+              <form class="text-center mb-3" action="{% url 'favorites:favorites' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="product" value="{{ product_found.code }}">
+                <input type="hidden" name="substitute" value="{{ product.code }}">
+                <button class="a-saveproduct" type="submit"><i class="fa fa-floppy-o" aria-hidden="true">&#xf0c7 </i>
+                  Sauvegarder
+                </button>
+              </form>
+            {% else %}
+              <form class="text-center mb-3" action="{% url 'users:login' %}" method="get">
+              <button class="a-saveproduct" type="submit"><i class="fa fa-floppy-o" aria-hidden="true">&#xf0c7 </i>
                 Sauvegarder
-              </a>
-            </p>
+              </button>
+              </form>
+            {% endif %}
         </div>
         {% endfor %}
       </div>

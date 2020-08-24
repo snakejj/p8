@@ -1,0 +1,58 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<!-- Masthead -->
+
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">{{ title }}</h1>
+    </div>
+  </header>
+
+<!-- list of results -->
+  <section class="results-section">
+    {% if user.is_authenticated %}
+    {% if empty %}
+    <p class="text-center">Aucuns substituts enregistré pour le moment</p>
+    {% else %}
+
+    <div class="container">
+      <h5 class="text-center mt-0">Voici la liste de vos aliments enregistrés</h5>
+      <hr class="divider my-4">
+
+    <div class="row">
+        {% for product, substitute in favorites %}
+        <div class="col-md-4 col-xs-12 col-lg-4-product" >
+          <div class="col-lg-4-img" >
+            {% if substitute.nutrition_grade_fr == 'a' %}
+            <span class="nutriscore-a">A</span>
+            {% elif substitute.nutrition_grade_fr == 'b' %}
+            <span class="nutriscore-b">B</span>
+            {% elif substitute.nutrition_grade_fr == 'c' %}
+            <span class="nutriscore-c">C</span>
+            {% elif substitute.nutrition_grade_fr == 'd' %}
+            <span class="nutriscore-d">D</span>
+            {% elif substitute.nutrition_grade_fr == 'e' %}
+            <span class="nutriscore-e">E</span>
+            {% endif %}
+            <a class="fill-div" href="{% url 'products:product' %}?code={{ substitute.code }}">
+              <img class ="imgproduct" src="{{ substitute.image_url }} " alt="{{ substitute.product_name }}">
+              </a>
+          </div>
+          <a href="{% url 'products:product' %}?code={{ substitute.code }}"><h5 class="mb-3 text-center font-weight-bold">{{ substitute.product_name }}</h5></a>
+
+              <form class="text-center mb-3">
+                <button class="a-saveproduct" type="submit"><a href="{% url 'products:product' %}?code={{ product.code }}">Substitué à {{ product.product_name }}</a></button>
+              </form>
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+    {% endif %}
+    {% else %}
+    <p class="text-center">Pour acceder à vos aliments enregistré vous devez etre connecté.</p>
+    <p class="text-center"><a href="{% url 'users:login' %}">Suivez ce lien pour vous connecter.</a></p>
+    {% endif %}
+  </section>
+
+{% endblock content %}

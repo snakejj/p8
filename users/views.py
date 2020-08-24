@@ -42,18 +42,18 @@ def logout(request):
 
 def login(request):
     if request.method == 'POST':
-        form = AuthenticationForm(request=request, data=request.POST)
-        if form.is_valid():
-            username = form.cleaned_data.get('username')
-            password = form.cleaned_data.get('password')
-            user = authenticate(username=username, password=password)
-            if user is not None:
-                log_in(request, user)
-                messages.info(request, f"Bienvenue {username} !")
-                return redirect('/')
+            form = AuthenticationForm(request=request, data=request.POST)
+            if form.is_valid():
+                username = form.cleaned_data.get('username')
+                password = form.cleaned_data.get('password')
+                user = authenticate(username=username, password=password)
+                if user is not None:
+                    log_in(request, user)
+                    messages.info(request, f"Bienvenue {username} !")
+                    return redirect('/')
+                else:
+                    messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
             else:
                 messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
-        else:
-            messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
     form = AuthenticationForm()
     return render(request, 'registration/login.html', {"form": form})
