@@ -41,9 +41,11 @@
           </div>
           <a href="{% url 'products:product' %}?code={{ substitute.code }}"><h5 class="mb-3 text-center font-weight-bold">{{ substitute.product_name }}</h5></a>
 
-              <form class="text-center mb-3">
-                <button class="a-saveproduct" type="submit"><a href="{% url 'products:product' %}?code={{ product.code }}">Substitué à {{ product.product_name }}</a></button>
-              </form>
+              <div class="text-center mb-3">
+                <a href="{% url 'products:product' %}?code={{ product.code }}">
+                  <button class="a-saveproduct" type="submit">Substitué à {{ product.product_name }}</button>
+                </a>
+              </div>
         </div>
         {% endfor %}
       </div>
