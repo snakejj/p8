@@ -18,7 +18,7 @@ def signup(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             log_in(request, user)
-            messages.success(request, f"Inscription effectuée avec succès !")
+            messages.success(request, f"Inscription effectuée avec succès !", fail_silently=True)
             return redirect('users:profile')
     else:
         form = SignUpForm()
@@ -29,31 +29,30 @@ def signup(request):
 
 
 def profile(request):
-
     return render(request, 'users/profil.html', {'title': "Page de profil",})
 
 
 
 def logout(request):
     log_out(request)
-    messages.info(request, "On espere vous revoir bientot !")
+    messages.info(request, "On espere vous revoir bientot !", fail_silently=True)
     return redirect("core:home")
 
 
 def login(request):
     if request.method == 'POST':
-            form = AuthenticationForm(request=request, data=request.POST)
-            if form.is_valid():
-                username = form.cleaned_data.get('username')
-                password = form.cleaned_data.get('password')
-                user = authenticate(username=username, password=password)
-                if user is not None:
-                    log_in(request, user)
-                    messages.info(request, f"Bienvenue {username} !")
-                    return redirect('/')
-                else:
-                    messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
+        form = AuthenticationForm(request=request, data=request.POST)
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            user = authenticate(username=username, password=password)
+            if user is not None:
+                log_in(request, user)
+                messages.info(request, f"Bienvenue {username} !", fail_silently=True)
+                return redirect('/')
             else:
-                messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
+                messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
+        else:
+            messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
     form = AuthenticationForm()
     return render(request, 'registration/login.html', {"form": form})

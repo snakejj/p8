@@ -14,7 +14,7 @@ class ProductManager(models.Manager):
             category, iscreated = Category.objects.get_or_create(name=categ)
 
             for fullp in products[categ]:
-                product, iscreated = Product.objects.get_or_create(
+                Product.objects.get_or_create(
                     code=fullp.get("code"), defaults={
                         "product_name": fullp.get("product_name"),
                         "product_url": fullp.get("product_url"),

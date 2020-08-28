@@ -3,8 +3,8 @@ from products.models import Product
 
 
 def product_details(request):
-    product = Product.objects.filter(pk=request.GET.get("code"))[0]
-    print(product)
+    code = request.GET.get("code")
+    product = Product.objects.filter(pk=code)[0]
 
     return render(request, 'products/product.html', {
         'product': product,
