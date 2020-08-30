@@ -1,5 +1,5 @@
 from django.contrib.auth.models import AnonymousUser
-
+from django.db import IntegrityError
 from .. import views
 
 from django.test import RequestFactory
@@ -65,3 +65,24 @@ class TestFavoritesView:
             'Should save a new entry in favorites database'
         assert str(post['product']) and str(post['substitute']) in str(resp.getvalue()), \
             'Should display the newly saved product on the favorites page'
+
+    def test_if_view_favorites_is_preventing_saving_duplicates_in_favorites_when_logged_in(self):
+        objproduct_initial = mixer.blend('products.Product')
+        objproduct_substitute = mixer.blend('products.Product')
+        mixer.blend(
+            'favorites.Favorites',
+            user_id=2,
+            product_id=objproduct_initial.code,
+            substitute_id=objproduct_substitute.code)
+
+        user = mixer.blend('auth.User', user_id=2)
+        post = {
+            "user_id": user.id,
+            "product": objproduct_initial.code,
+            "substitute": objproduct_substitute.code
+        }
+        req = RequestFactory().post('/', data=post)
+        req.user = user
+        resp = views._add_favorites(req)
+
+        assert resp is True, 'Should return True for the boolean called "already exists"'
