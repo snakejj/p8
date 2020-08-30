@@ -2,18 +2,22 @@ from django.shortcuts import render
 from favorites.models import Favorites
 from products.models import Product
 from django.contrib import messages
-
+from django.db import IntegrityError
 
 def _add_favorites(request):
-    if request.POST:
-        form = request.POST or None
+    try:
+        if request.POST:
+            form = request.POST or None
 
-        user = request.user.id
-        product = form.get('product')
-        substitute = form.get('substitute')
+            user = request.user.id
+            product = form.get('product')
+            substitute = form.get('substitute')
 
-        Favorites.objects.create(user_id=user, product_id=product, substitute_id=substitute)
-        messages.success(request, "Produit ajouté avec succès !", fail_silently=True)
+            Favorites.objects.create(user_id=user, product_id=product, substitute_id=substitute)
+            messages.success(request, "Produit ajouté avec succès !", fail_silently=True)
+    except IntegrityError:
+        already_exists = True
+        return already_exists
 
 
 def _return_favorites():
@@ -23,7 +27,13 @@ def _return_favorites():
 def favorites(request):
     empty = False
 
-    _add_favorites(request)
+    already_exists = _add_favorites(request)
+    if already_exists :
+        messages.warning(
+            request,
+            "Cette combinaison produit-substitut existe deja dans vos aliments!",
+            fail_silently=True
+        )
 
     results = _return_favorites()
 
