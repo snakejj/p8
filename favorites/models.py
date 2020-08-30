@@ -29,5 +29,5 @@ class Favorites(models.Model):
     class Meta:
         db_table = 'favorites_favorites'
         constraints = [
-            models.UniqueConstraint(fields=['user', 'product', 'substitute'], name='unique combination')
+            models.UniqueConstraint(fields=['user', 'product', 'substitute'], name='unique_combination')
         ]

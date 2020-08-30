@@ -1,0 +1,11 @@
+[run]
+omit =
+    venv/*,
+    *apps.py,
+    *migrations/*,
+    *settings*,
+    *tests/*,
+    *wsgi.py,
+    *asgi.py,
+    *__init__.py,
+    manage.py,
