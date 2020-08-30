@@ -1,7 +1,5 @@
 import pytest
 from mixer.backend.django import mixer
-from mock import patch
-
 from products.models import Product
 
 pytestmark = pytest.mark.django_db

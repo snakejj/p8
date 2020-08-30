@@ -2,7 +2,6 @@ from .. import views
 
 from django.test import RequestFactory
 import pytest
-from mixer.backend.django import mixer
 pytestmark = pytest.mark.django_db
 
 

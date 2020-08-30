@@ -1,5 +1,4 @@
 import pytest
-from django.core.management import call_command
 from mixer.backend.django import mixer
 from openfoodfacts.management.commands.initdb import Command
 pytestmark = pytest.mark.django_db

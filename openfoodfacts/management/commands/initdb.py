@@ -20,7 +20,7 @@ class Command(BaseCommand):
             'Produits laitiers'
         ]
 
-        products = {} # rename datasomething 
+        products = {}
 
         for categ in categories:
 
@@ -33,7 +33,7 @@ class Command(BaseCommand):
                 "tagtype_0": "categories",
                 "tag_contains_0": "contains",
                 "tag_0": categ,
-                "sort_by" : "unique_scans_n",
+                "sort_by": "unique_scans_n",
             }
             response = requests.get(url, params=data)
             products[categ] = response.json()['products']
@@ -48,12 +48,13 @@ class Command(BaseCommand):
 
             try:
                 for p in products[categ]:
-                    if (p.get('code', "")
-                        and len(p.get('nutrition_grade_fr', "")) == 1
-                        and 4 < len(p.get('product_name_fr', "")) < 80
-                        and 1 < len(p.get('url', "")) < 255
-                        and 1 < len(p.get('image_url', "")) < 255
-                        and 1 < len(p.get('image_nutrition_url', "")) < 255
+                    if (
+                            p.get('code', "")
+                            and len(p.get('nutrition_grade_fr', "")) == 1
+                            and 4 < len(p.get('product_name_fr', "")) < 80
+                            and 1 < len(p.get('url', "")) < 255
+                            and 1 < len(p.get('image_url', "")) < 255
+                            and 1 < len(p.get('image_nutrition_url', "")) < 255
                     ):
 
                         fullp = {

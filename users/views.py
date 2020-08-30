@@ -29,8 +29,7 @@ def signup(request):
 
 
 def profile(request):
-    return render(request, 'users/profil.html', {'title': "Page de profil",})
-
+    return render(request, 'users/profil.html', {'title': "Page de profil"})
 
 
 def logout(request):

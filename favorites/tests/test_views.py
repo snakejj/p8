@@ -5,20 +5,14 @@ from .. import views
 from django.test import RequestFactory
 import pytest
 from mixer.backend.django import mixer
-from django.contrib.sessions.middleware import SessionMiddleware
-from django.contrib.sessions.backends.db import SessionStore
 
 pytestmark = pytest.mark.django_db
 
 
-class TestFavoritesView():
+class TestFavoritesView:
     def test_if_view_favorites_is_displaying_when_not_logged_in(self):
         req = RequestFactory().get('/')
         req.user = AnonymousUser()
-
-        # middleware = SessionMiddleware(req)
-        # middleware.process_request(req)
-        # req.session.save()
 
         resp = views.favorites(req)
 
@@ -30,13 +24,9 @@ class TestFavoritesView():
 
     def test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user(self):
         user = mixer.blend('auth.User', id=2)
-        obj = mixer.blend('favorites.Favorites', user_id=3)
+        mixer.blend('favorites.Favorites', user_id=3)
         req = RequestFactory().get('/')
         req.user = user
-
-        # middleware = SessionMiddleware(req)
-        # middleware.process_request(req)
-        # req.session.save()
 
         resp = views.favorites(req)
 
@@ -48,7 +38,7 @@ class TestFavoritesView():
 
     def test_if_view_favorites_is_displaying_previous_favorites_when_logged_in(self):
         user = mixer.blend('auth.User', id=2)
-        obj = mixer.blend('favorites.Favorites', user_id=2)
+        mixer.blend('favorites.Favorites', user_id=2)
         req = RequestFactory().get('/')
         req.user = user
 
@@ -71,7 +61,7 @@ class TestFavoritesView():
         req.user = user
         resp = views.favorites(req)
 
-        assert resp.status_code == 200 , \
+        assert resp.status_code == 200, \
             'Should save a new entry in favorites database'
         assert str(post['product']) and str(post['substitute']) in str(resp.getvalue()), \
             'Should display the newly saved product on the favorites page'
