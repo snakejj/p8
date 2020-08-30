@@ -1,5 +1,7 @@
 import pytest
 from mixer.backend.django import mixer
+from django.core.management import call_command
+
 from openfoodfacts.management.commands.initdb import Command
 pytestmark = pytest.mark.django_db
 
@@ -47,4 +49,5 @@ def test_initdb_command_is_fetching_data_from_the_openfoodfacts_api(monkeypatch)
     monkeypatch.setattr("requests.get", MockGet)
 
     cmd_instance = Command()
+    print(cmd_instance.handle())
     assert str(obj_test.code) and str(obj_test2.code) and str(obj_test3.code) in str(cmd_instance.handle()), ''
