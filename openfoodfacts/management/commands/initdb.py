@@ -1,5 +1,8 @@
+import json
+
 from django.core.management.base import BaseCommand, CommandError
 import requests
+import sys
 
 from products.models import Product, Category
 
@@ -73,4 +76,5 @@ class Command(BaseCommand):
         # Save data in database
 
         Product.objects.create_products_from_openfoodfacts(clean_result)
-        return clean_result
+
+        return json.dumps(clean_result, indent=2)
