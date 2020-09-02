@@ -49,8 +49,12 @@ def login(request):
                 log_in(request, user)
                 messages.info(request, f"Bienvenue {username} !", fail_silently=True)
                 return redirect('/')
-            else:
-                messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
+
+            # This block seems redundant :
+
+            # else:
+            #     messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
+
         else:
             messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
     form = AuthenticationForm()
