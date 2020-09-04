@@ -16,3 +16,6 @@ class FunctionalTests(LiveServerTestCase):
     def test_can_navigate_site(self):
         self.browser.get('http://localhost:8000')
         assert "Page d'accueil" in self.browser.title
+
+    # test chemin utilisateur creation de compte + verif de la redirection
+

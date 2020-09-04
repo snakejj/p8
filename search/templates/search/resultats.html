@@ -67,12 +67,6 @@
                   Sauvegarder
                 </button>
               </form>
-            {% else %}
-              <form class="text-center mb-3" action="{% url 'users:login' %}" method="get">
-              <button class="a-saveproduct" type="submit"><i class="fa fa-floppy-o" aria-hidden="true">&#xf0c7 </i>
-                Sauvegarder
-              </button>
-              </form>
             {% endif %}
         </div>
         {% endfor %}

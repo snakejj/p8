@@ -32,9 +32,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb8f2828-9717-47cd-9d7c-107b97d0b18d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/users/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_tests/functional_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/functional_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_models_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
     </list>
-    <list id="0cbd33a6-680e-4243-92e1-8c9fcc8b78e5" name="First functional tests" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +156,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cb8f2828-9717-47cd-9d7c-107b97d0b18d" name="Default Changelist" comment="" />
-      <changelist id="0cbd33a6-680e-4243-92e1-8c9fcc8b78e5" name="First functional tests" comment="" />
       <created>1597749239554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -324,7 +343,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599219615193</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Code refactoring">
+      <created>1599219731065</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599219731065</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Code refactoring">
+      <created>1599220287162</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599220287162</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Refactoring of the users views's test">
+      <created>1599220556434</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599220556434</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -385,10 +425,11 @@
     <MESSAGE value="Fixing of a bug in the initdb test" />
     <MESSAGE value="Fixing of the unique constraint in the favorites table" />
     <MESSAGE value="Setting of the test for the unique constraint feature" />
-    <MESSAGE value="Code refactoring" />
     <MESSAGE value="Setting of the test for the users app's view" />
     <MESSAGE value="First functional tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="First functional tests" />
+    <MESSAGE value="Code refactoring" />
+    <MESSAGE value="Refactoring of the users views's test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring of the users views's test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="173" width="738" height="635" key="#Inspections" timestamp="1598794005232">
@@ -416,10 +457,10 @@
     </state>
     <state x="232" y="24" width="896" height="718" key="CommitChangelistDialog2/0.24.1366.720@0.24.1366.720" timestamp="1598793105014" />
     <state x="232" y="338" width="896" height="718" key="CommitChangelistDialog2/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598112714004" />
-    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog" timestamp="1599216083966">
+    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog" timestamp="1599220660765">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599216083966" />
+    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599220660765" />
     <state x="97" y="124" width="1172" height="523" key="DiffContextDialog/0.24.1366.720@0.24.1366.720" timestamp="1598797821999" />
     <state x="97" y="436" width="1172" height="523" key="DiffContextDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598620874884" />
     <state x="111" y="103" width="1160" height="539" key="DiffContextDialog/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214983022" />
@@ -487,30 +528,32 @@
     <state x="1576" y="172" width="1022" height="728" key="SettingsEditor/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598081231373" />
     <state x="1815" y="181" key="SettingsEditor/0.336.3286.720@0.336.3286.720" timestamp="1597749404826" />
     <state x="162" y="0" width="900" height="741" key="SettingsEditor/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214645527" />
-    <state x="2634" y="179" width="308" height="170" key="VCS.ChangelistChooser" timestamp="1599219597579">
+    <state x="2634" y="179" width="292" height="161" key="VCS.ChangelistChooser" timestamp="1599220271569">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2634" y="179" key="VCS.ChangelistChooser/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599219597579" />
+    <state x="2634" y="179" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599220271569" />
     <state x="902" y="455" width="308" height="170" key="VCS.ChangelistChooser/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598099734982" />
     <state x="2170" y="455" width="308" height="170" key="VCS.ChangelistChooser/0.336.3286.720@0.336.3286.720" timestamp="1597768949244" />
-    <state x="457" y="299" width="447" height="170" key="VCS.EditChangelistDialog" timestamp="1598793496266">
-      <screen x="0" y="24" width="1366" height="720" />
+    <state x="2008" y="413" width="447" height="170" key="VCS.EditChangelistDialog" timestamp="1599220429795">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="2008" y="413" key="VCS.EditChangelistDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599220429795" />
     <state x="457" y="299" width="447" height="170" key="VCS.EditChangelistDialog/0.24.1366.720@0.24.1366.720" timestamp="1598793496266" />
     <state x="278" y="433" width="806" height="526" key="Vcs.Push.Dialog.v2" timestamp="1599033156041">
       <screen x="0" y="336" width="1366" height="720" />
     </state>
     <state x="278" y="121" width="806" height="526" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1598863853544" />
     <state x="278" y="433" width="806" height="526" key="Vcs.Push.Dialog.v2/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1599033156041" />
-    <state x="513" y="92" width="336" height="584" key="VcsDiffUtil.ChangesDialog" timestamp="1598796200128">
-      <screen x="0" y="24" width="1366" height="720" />
-    </state>
-    <state x="513" y="92" key="VcsDiffUtil.ChangesDialog/0.24.1366.720@0.24.1366.720" timestamp="1598796200128" />
-    <state x="513" y="404" width="336" height="584" key="VcsDiffUtil.ChangesDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598104651667" />
-    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1599219716772">
+    <state x="2087" y="102" width="1069" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599220418347">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599219716772" />
+    <state x="2087" y="102" width="1069" height="519" key="VcsDiffUtil.ChangesDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599220418347" />
+    <state x="513" y="92" key="VcsDiffUtil.ChangesDialog/0.24.1366.720@0.24.1366.720" timestamp="1598796200128" />
+    <state x="513" y="404" width="336" height="584" key="VcsDiffUtil.ChangesDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598104651667" />
+    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1599219756517">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599219756517" />
     <state x="498" y="92" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.24.1366.720@0.24.1366.720" timestamp="1598792813459" />
     <state x="498" y="404" width="366" height="584" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598620874477" />
     <state x="674" y="124" width="620" height="536" key="find.popup" timestamp="1598786706990">

@@ -49,29 +49,29 @@ class Command(BaseCommand):
 
             clean_result[categ] = []
 
-            try:
-                for p in products[categ]:
-                    if (p.get('code', "")
-                        and len(p.get('nutrition_grade_fr', "")) == 1
-                        and 4 < len(p.get('product_name_fr', "")) < 80
-                        and 1 < len(p.get('url', "")) < 255
-                        and 1 < len(p.get('image_url', "")) < 255
-                        and 1 < len(p.get('image_nutrition_url', "")) < 255
-                    ):
+            # try:
+            for p in products[categ]:
+                if (p.get('code', "")
+                    and len(p.get('nutrition_grade_fr', "")) == 1
+                    and 4 < len(p.get('product_name_fr', "")) < 80
+                    and 1 < len(p.get('url', "")) < 255
+                    and 1 < len(p.get('image_url', "")) < 255
+                    and 1 < len(p.get('image_nutrition_url', "")) < 255
+                ):
 
-                        fullp = {
-                            "code": p['code'],
-                            "product_name": p["product_name_fr"],
-                            "product_url": p["url"],
-                            "nutrition_grade_fr": p["nutrition_grade_fr"],
-                            "image_url": p["image_url"],
-                            "image_nutrition_url": p["image_nutrition_url"],
-                        }
+                    fullp = {
+                        "code": p['code'],
+                        "product_name": p["product_name_fr"],
+                        "product_url": p["url"],
+                        "nutrition_grade_fr": p["nutrition_grade_fr"],
+                        "image_url": p["image_url"],
+                        "image_nutrition_url": p["image_nutrition_url"],
+                    }
 
-                        clean_result[categ].append(fullp)
+                    clean_result[categ].append(fullp)
 
-            except KeyError:
-                self.stderr.write("Erreur lors du tri", ending='')
+            # except KeyError:
+            #     self.stderr.write("Erreur lors du tri", ending='')
 
         # Save data in database
 
