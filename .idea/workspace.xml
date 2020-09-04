@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="1.0" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Visible folders" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb8f2828-9717-47cd-9d7c-107b97d0b18d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/users/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests/test_views.py" afterDir="false" />
+    </list>
+    <list id="0cbd33a6-680e-4243-92e1-8c9fcc8b78e5" name="First functional tests" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Visible folders" pattern="file[P8]:favorites//*||file[P8]:functional_tests//*||file[P8]:openfoodfacts//*||file[P8]:products//*||file[P8]:purbeurre//*||file[P8]:search//*||file[P8]:users//*||file[P8]:core//*" />
+  </component>
+  <component name="ProjectId" id="1gGmKa9s1EQucITjaUrnaAk1CC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P8bis" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="P8" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="P8" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/openfoodfacts" />
+      <recent name="$PROJECT_DIR$/openfoodfacts/management/commands" />
+      <recent name="$PROJECT_DIR$/core/templates/core" />
+      <recent name="$PROJECT_DIR$/users/templates" />
+      <recent name="$PROJECT_DIR$/core/templates/layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/users" />
+      <recent name="$PROJECT_DIR$/users/templates/users" />
+      <recent name="$PROJECT_DIR$/users/templates/registration" />
+      <recent name="$PROJECT_DIR$/users/templates" />
+      <recent name="$PROJECT_DIR$/search/templates/search" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb8f2828-9717-47cd-9d7c-107b97d0b18d" name="Default Changelist" comment="" />
+      <changelist id="0cbd33a6-680e-4243-92e1-8c9fcc8b78e5" name="First functional tests" comment="" />
+      <created>1597749239554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597749239554</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creation of the core app">
+      <created>1597757570688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597757570688</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setting of the home page">
+      <created>1597768906737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597768906737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setting of the home page">
+      <created>1597768924532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597768924532</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Setting of the legal notice page">
+      <created>1597824682055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597824682055</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Setting of the login and logout system">
+      <created>1597916750893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597916750893</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Setting of the sign up system">
+      <created>1597921274453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597921274453</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Setting of messages on sign up, login and logout">
+      <created>1598024802163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598024802163</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Setting of the results page">
+      <created>1598098083669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598098083669</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Setting of the search form in the navigation bar">
+      <created>1598099605728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598099605728</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Setting of the search form in the navigation bar">
+      <created>1598099753730</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598099753730</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixing of a bug in results page's responsiveness">
+      <created>1598104806443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104806443</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Setting of the product page">
+      <created>1598108971640</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598108971640</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Setting of the favorites system">
+      <created>1598284774494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598284774494</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixing of a link bug in favorites.html template">
+      <created>1598339095512</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598339095512</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Code refactoring">
+      <created>1598620886684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598620886684</updated>
+    </task>
+    <task id="LOCAL-00016" summary="First tests">
+      <created>1598628505114</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598628505114</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Attempt to fix the unique constraint on favorites table (not working)">
+      <created>1598638067725</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598638067725</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update on tests">
+      <created>1598793664185</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598793664186</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Code refactoring">
+      <created>1598795590210</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598795590210</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixing of a bug in the initdb test">
+      <created>1598797588068</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598797588068</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixing of the unique constraint in the favorites table">
+      <created>1598799454899</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598799454899</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Setting of the test for the unique constraint feature">
+      <created>1598801524886</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598801524886</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Code refactoring">
+      <created>1598863850151</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598863850151</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Setting of the test for the users app's view">
+      <created>1599033092412</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599033092412</updated>
+    </task>
+    <task id="LOCAL-00025" summary="First functional tests">
+      <created>1599219571924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599219571924</updated>
+    </task>
+    <task id="LOCAL-00026" summary="First functional tests">
+      <created>1599219615193</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599219615193</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of the core app" />
+    <MESSAGE value="Setting of the home page" />
+    <MESSAGE value="Setting of the legal notice page" />
+    <MESSAGE value="Setting of the login and logout system" />
+    <MESSAGE value="Setting of the sign up system" />
+    <MESSAGE value="Setting of messages on sign up, login and logout" />
+    <MESSAGE value="Setting of the results page" />
+    <MESSAGE value="Setting of the search form in the navigation bar" />
+    <MESSAGE value="Fixing of a bug in results page's responsiveness" />
+    <MESSAGE value="Setting of the product page" />
+    <MESSAGE value="Setting of the favorites system" />
+    <MESSAGE value="Fixing of a link bug in favorites.html template" />
+    <MESSAGE value="First tests" />
+    <MESSAGE value="Attempt to fix the unique constraint on favorites table (not working)" />
+    <MESSAGE value="Update on tests" />
+    <MESSAGE value="Fixing of a bug in the initdb test" />
+    <MESSAGE value="Fixing of the unique constraint in the favorites table" />
+    <MESSAGE value="Setting of the test for the unique constraint feature" />
+    <MESSAGE value="Code refactoring" />
+    <MESSAGE value="Setting of the test for the users app's view" />
+    <MESSAGE value="First functional tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="First functional tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="173" width="738" height="635" key="#Inspections" timestamp="1598794005232">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="419" y="173" key="#Inspections/0.24.1366.720@0.24.1366.720" timestamp="1598794005232" />
+    <state x="1955" y="223" width="738" height="635" key="#Inspections/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909015478" />
+    <state x="556" y="563" width="651" height="368" key="#Notifications" timestamp="1598606442271">
+      <screen x="0" y="336" width="1366" height="720" />
+    </state>
+    <state x="556" y="563" width="651" height="368" key="#Notifications/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598606442271" />
+    <state x="1594" y="336" width="602" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599216064226">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1594" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599216064226" />
+    <state x="162" y="560" width="602" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598355163011" />
+    <state x="1977" y="341" width="491" height="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599217146227">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1977" y="341" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599217146227" />
+    <state x="435" y="251" width="491" height="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1366.720@0.24.1366.720" timestamp="1598794886434" />
+    <state x="445" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599215180455" />
+    <state x="232" y="24" width="896" height="718" key="CommitChangelistDialog2" timestamp="1598793105014">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="232" y="24" width="896" height="718" key="CommitChangelistDialog2/0.24.1366.720@0.24.1366.720" timestamp="1598793105014" />
+    <state x="232" y="338" width="896" height="718" key="CommitChangelistDialog2/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598112714004" />
+    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog" timestamp="1599216083966">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1502" y="150" width="1649" height="786" key="DiffContextDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599216083966" />
+    <state x="97" y="124" width="1172" height="523" key="DiffContextDialog/0.24.1366.720@0.24.1366.720" timestamp="1598797821999" />
+    <state x="97" y="436" width="1172" height="523" key="DiffContextDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598620874884" />
+    <state x="111" y="103" width="1160" height="539" key="DiffContextDialog/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214983022" />
+    <state x="1930" y="289" width="309" height="492" key="EnvironmentVariablesDialog" timestamp="1598080818219">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1930" y="289" width="309" height="492" key="EnvironmentVariablesDialog/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598080818219" />
+    <state x="1866" y="293" width="363" height="322" key="FileChooserDialogImpl" timestamp="1599217773021">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1866" y="293" key="FileChooserDialogImpl/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599217773021" />
+    <state x="356" y="219" width="363" height="322" key="FileChooserDialogImpl/0.24.1366.720@0.24.1366.720" timestamp="1598796493541" />
+    <state x="1866" y="292" width="430" height="482" key="FileChooserDialogImpl/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598080722569" />
+    <state x="367" y="201" key="FileChooserDialogImpl/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214203794" />
+    <state width="1343" height="212" key="GridCell.Tab.0.bottom" timestamp="1598774836132">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.0.bottom/0.24.1366.720@0.24.1366.720" timestamp="1598774836132" />
+    <state width="1897" height="288" key="GridCell.Tab.0.bottom/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598025124977" />
+    <state width="1343" height="212" key="GridCell.Tab.0.center" timestamp="1598774836132">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.0.center/0.24.1366.720@0.24.1366.720" timestamp="1598774836132" />
+    <state width="1897" height="288" key="GridCell.Tab.0.center/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598025124977" />
+    <state width="1343" height="212" key="GridCell.Tab.0.left" timestamp="1598774836132">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.0.left/0.24.1366.720@0.24.1366.720" timestamp="1598774836132" />
+    <state width="1897" height="288" key="GridCell.Tab.0.left/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598025124977" />
+    <state width="1343" height="212" key="GridCell.Tab.0.right" timestamp="1598774836132">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.0.right/0.24.1366.720@0.24.1366.720" timestamp="1598774836132" />
+    <state width="1897" height="288" key="GridCell.Tab.0.right/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598025124977" />
+    <state width="1343" height="212" key="GridCell.Tab.1.bottom" timestamp="1598774836133">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.1.bottom/0.24.1366.720@0.24.1366.720" timestamp="1598774836133" />
+    <state width="1897" height="356" key="GridCell.Tab.1.bottom/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909041449" />
+    <state width="1343" height="212" key="GridCell.Tab.1.center" timestamp="1598774836133">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.1.center/0.24.1366.720@0.24.1366.720" timestamp="1598774836133" />
+    <state width="1897" height="356" key="GridCell.Tab.1.center/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909041449" />
+    <state width="1343" height="212" key="GridCell.Tab.1.left" timestamp="1598774836132">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.1.left/0.24.1366.720@0.24.1366.720" timestamp="1598774836132" />
+    <state width="1897" height="356" key="GridCell.Tab.1.left/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909041449" />
+    <state width="1343" height="212" key="GridCell.Tab.1.right" timestamp="1598774836133">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state width="1343" height="212" key="GridCell.Tab.1.right/0.24.1366.720@0.24.1366.720" timestamp="1598774836133" />
+    <state width="1897" height="356" key="GridCell.Tab.1.right/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909041449" />
+    <state x="486" y="58" width="389" height="653" key="RollbackChangesDialog" timestamp="1598795949669">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="486" y="58" width="389" height="653" key="RollbackChangesDialog/0.24.1366.720@0.24.1366.720" timestamp="1598795949669" />
+    <state x="1575" y="0" width="900" height="741" key="SettingsEditor" timestamp="1599216729476">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1575" y="0" key="SettingsEditor/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599216729476" />
+    <state x="149" y="24" key="SettingsEditor/0.24.1366.720@0.24.1366.720" timestamp="1598857575674" />
+    <state x="149" y="336" width="906" height="720" key="SettingsEditor/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1599046895320" />
+    <state x="1576" y="172" width="1022" height="728" key="SettingsEditor/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598081231373" />
+    <state x="1815" y="181" key="SettingsEditor/0.336.3286.720@0.336.3286.720" timestamp="1597749404826" />
+    <state x="162" y="0" width="900" height="741" key="SettingsEditor/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214645527" />
+    <state x="2634" y="179" width="308" height="170" key="VCS.ChangelistChooser" timestamp="1599219597579">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2634" y="179" key="VCS.ChangelistChooser/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599219597579" />
+    <state x="902" y="455" width="308" height="170" key="VCS.ChangelistChooser/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598099734982" />
+    <state x="2170" y="455" width="308" height="170" key="VCS.ChangelistChooser/0.336.3286.720@0.336.3286.720" timestamp="1597768949244" />
+    <state x="457" y="299" width="447" height="170" key="VCS.EditChangelistDialog" timestamp="1598793496266">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="457" y="299" width="447" height="170" key="VCS.EditChangelistDialog/0.24.1366.720@0.24.1366.720" timestamp="1598793496266" />
+    <state x="278" y="433" width="806" height="526" key="Vcs.Push.Dialog.v2" timestamp="1599033156041">
+      <screen x="0" y="336" width="1366" height="720" />
+    </state>
+    <state x="278" y="121" width="806" height="526" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1598863853544" />
+    <state x="278" y="433" width="806" height="526" key="Vcs.Push.Dialog.v2/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1599033156041" />
+    <state x="513" y="92" width="336" height="584" key="VcsDiffUtil.ChangesDialog" timestamp="1598796200128">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="513" y="92" key="VcsDiffUtil.ChangesDialog/0.24.1366.720@0.24.1366.720" timestamp="1598796200128" />
+    <state x="513" y="404" width="336" height="584" key="VcsDiffUtil.ChangesDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598104651667" />
+    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1599219716772">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2066" y="102" width="358" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599219716772" />
+    <state x="498" y="92" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.24.1366.720@0.24.1366.720" timestamp="1598792813459" />
+    <state x="498" y="404" width="366" height="584" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598620874477" />
+    <state x="674" y="124" width="620" height="536" key="find.popup" timestamp="1598786706990">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="674" y="124" width="620" height="536" key="find.popup/0.24.1366.720@0.24.1366.720" timestamp="1598786706990" />
+    <state x="674" y="436" width="620" height="536" key="find.popup/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598618507726" />
+    <state x="2313" y="150" width="859" height="804" key="find.popup/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598276378708" />
+    <state x="2016" y="139" width="620" height="804" key="find.popup/0.336.3286.720@0.336.3286.720" timestamp="1597767348265" />
+    <state x="485" y="228" width="487" height="386" key="scopes" timestamp="1599215178606">
+      <screen x="15" y="0" width="1351" height="741" />
+    </state>
+    <state x="475" y="246" width="406" height="275" key="scopes/0.24.1366.720@0.24.1366.720" timestamp="1598794292646" />
+    <state x="485" y="228" width="487" height="386" key="scopes/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599215178606" />
+    <state x="827" y="-73" width="672" height="678" key="search.everywhere.popup" timestamp="1598800862162">
+      <screen x="0" y="24" width="1366" height="720" />
+    </state>
+    <state x="827" y="-73" width="672" height="678" key="search.everywhere.popup/0.24.1366.720@0.24.1366.720" timestamp="1598800862162" />
+    <state x="827" y="239" width="672" height="678" key="search.everywhere.popup/0.336.1366.720/1366.0.1920.1080@0.336.1366.720" timestamp="1598258463017" />
+    <state x="2528" y="-145" width="672" height="1017" key="search.everywhere.popup/0.336.1366.720/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597909329706" />
+    <state x="1989" y="239" width="672" height="678" key="search.everywhere.popup/0.336.3286.720@0.336.3286.720" timestamp="1597754997104" />
+    <state x="415" y="265" width="540" height="204" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599214534950">
+      <screen x="15" y="0" width="1351" height="741" />
+    </state>
+    <state x="415" y="265" width="540" height="204" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/15.0.1351.741/1366.0.1920.1080@15.0.1351.741" timestamp="1599214534950" />
+  </component>
+</project>

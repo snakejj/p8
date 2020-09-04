@@ -1,0 +1,53 @@
+1599041219842	geckodriver	INFO	Listening on 127.0.0.1:35911
+1599041236690	geckodriver	INFO	Listening on 127.0.0.1:37289
+1599041340193	geckodriver	INFO	Listening on 127.0.0.1:45179
+1599041722507	geckodriver	INFO	Listening on 127.0.0.1:53765
+1599042285235	geckodriver	INFO	Listening on 127.0.0.1:51623
+1599118984035	geckodriver	INFO	Listening on 127.0.0.1:36141
+1599218990453	geckodriver	INFO	Listening on 127.0.0.1:33903
+1599218990461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefnlCmY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599218994272	Marionette	INFO	Listening on port 39169
+1599218994324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219032630	geckodriver	INFO	Listening on 127.0.0.1:33799
+1599219032637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFRNoAd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599219036498	Marionette	INFO	Listening on port 37075
+1599219036550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219070229	Marionette	INFO	Stopped listening on port 37075
+1599219074751	geckodriver	INFO	Listening on 127.0.0.1:46859
+1599219074758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOq4Zoj"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599219078379	Marionette	INFO	Listening on port 33749
+1599219078474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219117645	geckodriver	INFO	Listening on 127.0.0.1:56515
+1599219117652	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAEzACH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599219121250	Marionette	INFO	Listening on port 34913
+1599219121343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219192555	geckodriver	INFO	Listening on 127.0.0.1:41987
+1599219192562	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebwBJhE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599219196714	Marionette	INFO	Listening on port 37399
+1599219196787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219199495	Marionette	INFO	Stopped listening on port 37399
+1599219201080	Marionette	INFO	Stopped listening on port 34913
+1599219422054	geckodriver	INFO	Listening on 127.0.0.1:45165
+1599219422059	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2XB8RT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599219425912	Marionette	INFO	Listening on port 33163
+1599219425975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599219429827	Marionette	INFO	Stopped listening on port 33163
+1599220001101	geckodriver	INFO	Listening on 127.0.0.1:57113
+1599220001111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIliZSZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1599220004804	Marionette	INFO	Listening on port 34537
+1599220004826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599220008553	Marionette	INFO	Stopped listening on port 34537
