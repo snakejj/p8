@@ -1,4 +1,4 @@
-#!/home/user/data/python/pycharm/P8/venv/bin/python
+#!/home/user/data/python/pycharm/p8/venv/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
