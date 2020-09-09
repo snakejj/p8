@@ -1,63 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/layouts/_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/layouts/_navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_tests/functional_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/functional_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_admin_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/core_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_models_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/core_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_urls_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_models_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_admin_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/products_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_models_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/products_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_urls_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_admin_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/search_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_models_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/search_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_urls_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_admin_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/users_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_models_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/users_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_urls_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/chardetect" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/chardetect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/coverage" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/coverage-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage-3.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/coverage3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/faker" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/faker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/py.test" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/py.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pytest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pytest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/sqlformat" afterDir="false" />
-    </list>
-    <list id="678bafde-d92d-45f7-91b6-51722b3068df" name="Fixing of a bug in venv after renaming the project" comment="">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/P8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +68,20 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
-      <changelist id="678bafde-d92d-45f7-91b6-51722b3068df" name="Fixing of a bug in venv after renaming the project" comment="" />
+      <changelist id="" name="Fixing of a bug in venv after renaming the project" comment="" />
       <created>1599551081865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599551081865</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixing of a bug in venv after renaming the project">
+      <created>1599551770252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599551770252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,14 +95,32 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing of a bug in venv after renaming the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing of a bug in venv after renaming the project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599580235163">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599580235163" />
+    <state x="1466" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599552816901" />
     <state x="1830" y="174" key="SettingsEditor" timestamp="1599551204810">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1830" y="174" key="SettingsEditor/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551204810" />
-    <state x="2032" y="162" width="587" height="753" key="find.popup" timestamp="1599551492678">
+    <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser" timestamp="1599551761939">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2032" y="162" width="587" height="753" key="find.popup/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551492678" />
+    <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551761939" />
+    <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599579968145">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599579968145" />
+    <state x="474" y="110" width="785" height="514" key="find.popup" timestamp="1599577398525">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="474" y="110" width="785" height="514" key="find.popup/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599577398525" />
+    <state x="2032" y="162" width="1102" height="753" key="find.popup/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551595156" />
   </component>
 </project>
