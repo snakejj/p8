@@ -21,7 +21,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599738092041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correcting a error in Procfile">
+      <created>1599738506298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738506298</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +147,8 @@
     <MESSAGE value="Settings update to enable static files on heroku" />
     <MESSAGE value="Updating settings.py" />
     <MESSAGE value="Updating Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Procfile" />
+    <MESSAGE value="Correcting a error in Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting a error in Procfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599727132838">
@@ -144,10 +169,10 @@
     </state>
     <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727286049" />
     <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551761939" />
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1599637849512">
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1599740948810">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599637849512" />
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599740948810" />
     <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599579968145">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
