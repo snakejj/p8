@@ -10,11 +10,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -25,7 +20,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599735334034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating settings.py">
+      <created>1599737815216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737815216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updating Procfile">
+      <created>1599738092041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738092041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +121,9 @@
     <MESSAGE value="Fixing of a bug in venv after renaming the project" />
     <MESSAGE value="Setting of the functional test (sign up)" />
     <MESSAGE value="Settings update to enable static files on heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Settings update to enable static files on heroku" />
+    <MESSAGE value="Updating settings.py" />
+    <MESSAGE value="Updating Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Procfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599727132838">
