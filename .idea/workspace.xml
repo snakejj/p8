@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purbeurre/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/purbeurre/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,10 +117,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727132838" />
-    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599580235163">
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599737766417">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599580235163" />
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599737766417" />
     <state x="1466" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599552816901" />
     <state x="1830" y="174" key="SettingsEditor" timestamp="1599551204810">
       <screen x="1366" y="0" width="1920" height="1080" />
