@@ -25,6 +25,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'iewwsy=2uxa)vi!(n5c$g5(pzhzle%*h)vie#up%+q0kg+nqkw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = False if os.environ.get('ENV', 'development') == 'production' else True
 
 ALLOWED_HOSTS = ['.herokuapps.com', 'localhost', '127.0.0.1']
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     # -----------------------------
     'core.apps.CoreConfig',
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -128,6 +131,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 LOGOUT_REDIRECT_URL = "core:home"
 
 # E-mail
