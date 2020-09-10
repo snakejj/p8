@@ -22,6 +22,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/pages/mentions_legales.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/pages/mentions_legales.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
-      <changelist id="" name="Fixing of a bug in venv after renaming the project" comment="" />
       <created>1599551081865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599741091834</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updating tests (100% coverage)">
+      <created>1599741862196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741862196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixing of a bug in venv after renaming the project" />
@@ -139,17 +147,18 @@
     <MESSAGE value="Updating Procfile" />
     <MESSAGE value="Correcting a error in Procfile" />
     <MESSAGE value="Fixing of an error 500 when running functional_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing of an error 500 when running functional_test" />
+    <MESSAGE value="Updating tests (100% coverage)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating tests (100% coverage)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599727132838">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727132838" />
-    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599737766417">
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599741905130">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599737766417" />
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599741905130" />
     <state x="1466" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599552816901" />
     <state x="1830" y="174" key="SettingsEditor" timestamp="1599551204810">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -160,10 +169,10 @@
     </state>
     <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727286049" />
     <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551761939" />
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1599741254380">
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1599741866236">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599741254380" />
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599741866236" />
     <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599579968145">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
